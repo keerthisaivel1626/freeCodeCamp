@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1 id="title">Fast food Survey Form</h1>
+
+<p id="description">“The journey of a thousand pounds begins with a single burger.”</p>
+
+<div id="body">
+
+<form id="survey-form">
+  
+  <label id="name-label" for="name">
+  <p>Name:</p>
+  </label>
+  
+  <input id="name" type="text" placeholder="Enter Your Name" required>
+  
+  
+   <label id="email-label" for="email">
+  <p>Email:</p>
+  </label>
+  
+  <input id="email" type="email" placeholder="Enter Your Email" required>
+  
+   <label id="number-label" for="number">
+  <p>Age:</p>
+  </label>
+  
+  <input id="number" type="number" placeholder="Enter Your Age" min="12" max="50" required>
+  
+  <p>I enjoy consuming only meat preparation in a fast food restaurant
+  </p>
+  <select id="dropdown">
+    
+    <option value="default">Strongly agree </option>
+    <option value="He has a moral center.">Somewhat agreer.</option>
+    <option value="He stands for something.">Maybe.</option>
+    <option value="He shuns the limelight.">Somewhat disagree .</option>
+    <option value="He protects his team.">Strongly disagree .</option>
+   
+    
+  </select>
+  
+  <p>Please select the fast-food restaurants you visit frequently.
+  </p>
+  
+  <input type="checkbox" name="food" value="1">KFC</input>
+  <br>
+  <input type="checkbox" name="food" value="2">McDonald's</input>
+  <br>
+ <input type="checkbox" name="food" value="3">Pizza Hunt</input>
+<br>
+ <input type="checkbox" name="food" value="4">Burger King</input>
+<br>
+ <input type="checkbox" name="food" value="5">Daily Queen</input>
+<br>
+ <input type="checkbox" name="food" value="6">Five guys</input>
+<br>
+ <input type="checkbox" name="movies" value="7">jollibee</input>
+
+<p>On an average how much money do you spend on buying fast food per week?</p>
+
+<input type="radio" name="money" value="1">below 100</input>
+<br>
+ <input type="radio" name="money" value="2">100 to 200</input>
+<br>
+ <input type="radio" name="money" value="3">200 to 350</input>
+<br>
+ <input type="radio" name="money" value="4">350 to 500</input>
+<br>
+ <input type="radio" name="money" value="5">500 to 1000</input>
+<br>
+<input type="radio" name="money" value="5">more than 1000</input>
+<br>
+
+<textarea id="comment" rows="4" cols="40">Add Your Comment Here</textarea>
+<br>
+<input id="submit" type="submit" value="Submit">
+            
+</form>
+
+</div>
+
+  
+</body>
+</html>
+
